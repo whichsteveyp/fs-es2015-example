@@ -4,8 +4,7 @@ Welcome! This is a simple, more detailed less whirlwind nervous talk version of 
 
 1. Clone this repo, and open up Terminal.app (or your shell of choice) in the cloned directory
 2. Install `gulp` and `gulp-babel` like so: `npm install --save-dev gulp gulp-babel`
-3. Create `gulpfile.js` in the project root
-4. Create a gulp task `babel` that simply transpiles (using babel) files from `src` to `dist` folders
+3. Create `gulpfile.js` in the project root:
 ```js
 var
     babel = require('gulp-babel'),
@@ -17,6 +16,7 @@ gulp.task('babel', function () {
         .pipe(gulp.dest('dist'));
 });
 ```
+4. Create a gulp task `babel` that simply transpiles (using babel) files from `src` to `dist` folders
 5. Add a task to the `package.json` file in the `scripts` section like so: `"babel": "gulp babel"`
 6. From the command line, run `npm run babel`
 7. Voila! Assuming everything worked you should be able to see your properly converted es6 files in the `dist` folder.
