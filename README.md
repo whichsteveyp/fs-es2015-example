@@ -21,3 +21,10 @@ gulp.task('babel', function () {
 6. From the command line, run `npm run babel`
 7. Voila! Assuming everything worked you should be able to see your properly converted es6 files in the `dist` folder.
 
+If you get stuck, you can `git checkout complete` which has the working version - as you can see it's quite easy to get started with. Have a look at the example `src/es6.js` file and the transpiled `dist/es6.js` file syntax differences once you get it done.
+
+## Remember:
+
+You don't have to be a wizard, and you don't have to use all the new syntax. In fact, if you're struggling with it but you've already started using es2015 in some areas, you can totally write es5 syntax in the same files as a fallback.
+
+Feel free to holler if you have questions!
