@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "A simple repo to get up and running using basic es6 transpiling",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "babel": "gulp babel"
+  },
   "author": "Stephen Rivas Jr <sprjr@me.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0"
+  }
 }
